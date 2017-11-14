@@ -8,4 +8,7 @@ function BoardMember(name, homeState, training){
   this.approve = function approve(){
     return ("You can do that!")
   }
+  this.doCharity = function doCharity(){
+    return ("I like to help people.")
+  }
 }
